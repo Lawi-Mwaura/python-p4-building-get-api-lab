@@ -12,6 +12,7 @@ class Bakery(db.Model, SerializerMixin):
     __tablename__ = 'bakeries'
 
     id = db.Column(db.Integer, primary_key=True)
+    
 
 class BakedGood(db.Model, SerializerMixin):
     __tablename__ = 'baked_goods'
